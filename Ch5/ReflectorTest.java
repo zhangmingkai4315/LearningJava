@@ -7,7 +7,7 @@ import LearningJava.Ch5.jsmean.Employee;
 import java.lang.reflect.*;
 
 
-public class Ch5 {
+public class ReflectorTest {
     public static void printConstructor(Class cl){
         Constructor[] constructors = cl.getDeclaredConstructors();
         for(Constructor c : constructors){
