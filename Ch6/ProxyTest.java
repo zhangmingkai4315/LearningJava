@@ -19,8 +19,10 @@ public class ProxyTest {
             Object proxy = Proxy.newProxyInstance(null,new Class[]{Comparable.class},handler);
             elements[i] =proxy;
         }
+
         Integer key = new Random().nextInt(elements.length)+1;
         int result = Arrays.binarySearch(elements,key);
+
         if(result>=0){
             System.out.println(elements[result]);
         }
