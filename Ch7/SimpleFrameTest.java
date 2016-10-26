@@ -6,6 +6,7 @@ import java.net.URL;
 /**
  * Created by mike on 16-10-25.
  */
+
 public class SimpleFrameTest {
     public static void main(String[] args){
         EventQueue.invokeLater(new Runnable() {
