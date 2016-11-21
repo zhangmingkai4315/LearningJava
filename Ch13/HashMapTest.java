@@ -25,11 +25,6 @@ public class HashMapTest {
             System.out.printf("Key : %s, Value= %s\n",entry.getKey(),entry.getValue());
         }
         EnumSet<Weekday> always = EnumSet.allOf(Weekday.class);
-        EnumSet<Weekday> never = EnumSet.ran
-
-
-
-
 
     }
 }
